@@ -1,20 +1,39 @@
 body{
-    background-color:lavender;
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color: #333;
 }
+
 h1{
-    color:darkviolet;
+    color: purple;
     text-align: center;
 }
-hr{
-  border:1px solid darkviolet;
-}
+
 h2{
-    color:mediumslateblue;
+    color: slateblue;
 }
+
 p{
-   color:black;
-    font-size: 18px;
+    line-height: 1.6;
 }
+
 img{
     border-radius: 10px;
+    border: 2px solid purple;
+    margin: 10px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+hr{
+    border: 1px solid purple;
 }
